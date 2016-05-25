@@ -1,0 +1,138 @@
+* {
+	all: none;
+}
+
+html {
+	background-color: #e4af28;
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+	color: #FFF;
+	font-size: 16px;
+	font-family: 'Old Standard TT', 'Georgia', 'Times New Roman', serif;
+}
+
+.page-wrap {
+	position: relative;
+	margin: auto;
+	min-height: 100%;
+
+}
+
+.no-display {
+	text-indent: -9999px;
+}
+
+h3 {
+	font-size: 2em;
+	margin: 0;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	background-color: #EBDFAF;
+	color: #777;
+	text-align: center;
+}
+
+p {
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.wrapper {
+	max-width: 37.5em;
+	margin: auto;
+	padding: 2em 0 0;
+}
+
+header .mark {
+	height: 89px;
+	width: 169px;
+	background: url(../img/publiner.png) no-repeat;
+	position: relative;
+	margin: 2em auto;
+	top: 2em;
+}
+
+.mark a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.message {
+	padding-bottom: 80px;
+}
+
+input {
+	width: 100%;
+	/*background-color: #e4af28;
+	border: none;*/
+	border-bottom: 1px #FFF dotted;
+	padding: .25em;
+
+}
+
+/*input[focus] {
+	border: none !important;
+	border-bottom: 1px #FFF dotted;
+}*/
+
+input[placeholder] {
+	font-size: 2em;
+}
+
+.reply {
+	padding: 0;
+}
+
+/* Autocomplete JQuery UI */
+.ui-helper-hidden-accessible {
+	display: none;
+}
+
+.ui-autocomplete {
+	width: 200px;
+	list-style: none;
+	background-color: #FFF;
+	color: #777;
+}
+
+
+footer {
+	z-index: -1;
+	bottom: 0px;
+	width: 37.5em;
+	height: 80px;
+	padding-top: 80px;
+	margin: 80px auto;
+}
+
+footer p {
+	font-size: 1em;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 630px) {
+
+	.wrapper {
+		width: 320px;
+		margin: auto;
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	input[placeholder] {
+		font-size: 2em;
+	}
+
+	.page-wrap {
+		width: 100%;
+	}
+}
